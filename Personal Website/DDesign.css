@@ -1,0 +1,144 @@
+
+
+body{
+    background-color: rgb(20, 20, 20);
+    margin-top: -.5%;
+}
+.header{
+    display: flex;
+}
+h1 img{
+    margin-left: 40%;
+    height: 60px;
+    border-radius: 50%;
+    border: solid white 1px;
+}
+nav p{
+    margin-top:37%;
+    margin-left: 30%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    
+}
+nav{
+    color: rgb(255, 251, 251);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.nav_links ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+.nav_links li a{
+    text-decoration: none;
+   color: rgb(255, 255, 255);
+   margin: 0 7px;
+   padding: 1;
+}
+.row{
+    display: flex;
+    margin: auto;
+    background-color: rgb(41, 40, 40);
+}
+.col-1 img{
+    height: 505px;
+    margin-bottom: -5%;  
+}
+.col-2{
+    color: white;
+    margin-top: 10%;
+}
+.name{
+    display: flex;
+    font-size: 35px;
+    margin-top: -8%;
+}
+h3{
+    font-size: 55px;
+    margin-top: 5%;
+    color: rgb(182, 53, 113);
+}
+.position{
+    margin-top: -7.5%;
+    font-size: 25px;
+    background: linear-gradient(-119deg, gray 0% );
+}
+.discription{
+    margin-right: 12%;
+    margin-top: -1%;
+}
+.Socmed{
+    margin-top: 8%;
+}
+.logos img{
+    height: 32px;
+    justify-content: space-between ;
+    padding: .7%;
+    margin-left: -1%;
+    margin-top: -2%;
+    
+}
+.logos :hover{
+    border-radius: 50%;
+  box-shadow: 0 0 30px #c54068;
+}
+
+
+/* Blog site */
+
+
+
+    
+    
+
+.container{
+    position: relative;
+    width: 1290px;
+    height: 424px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    padding: 30px;
+    background-color: rgb(73, 73, 73);
+    margin: auto;
+}
+.container .card{
+    position: relative;
+    max-width: 200px;
+    height: 270px;
+    background: #fff;    
+    margin: 20px 20px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 202px rgba(0,0,0,0.5);
+    transition: 2s ease-in-out;
+}
+.container .card .ImageBx :hover{
+    transform: scale(1.1);
+    background-color: bisque;
+
+}
+
+.container .card .ImageBx{
+    position: relative;
+    width: 260px;
+    height: 260px;
+}
+.container .card .ImageBx img{
+    max-width: 200px;
+    border-radius: 4px;
+    transition: .5s ease-in-out;
+}
+.content{
+    margin-top: -11%;
+}
+.content p{
+    margin-top: -8%;
+}
+
+
